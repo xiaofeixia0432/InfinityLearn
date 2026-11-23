@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+    <key>Label</key>
+    <string>com.infinitylearn.backend</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/apple/Desktop/学习/AcquireKnowledge/backend/scripts/start_backend.sh</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/apple/Desktop/学习/AcquireKnowledge/backend</string>
+    <key>RunAtLoad</key><true/>
+    <key>KeepAlive</key>
+    <dict>
+        <key>Crashed</key><true/>
+        <key>SuccessfulExit</key><false/>
+    </dict>
+    <key>ThrottleInterval</key><integer>5</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/apple/Desktop/学习/AcquireKnowledge/backend/logs/autostart.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/apple/Desktop/学习/AcquireKnowledge/backend/logs/autostart.err.log</string>
+</dict></plist>
